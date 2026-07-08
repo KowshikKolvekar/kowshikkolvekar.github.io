@@ -10,8 +10,42 @@
     <header>
         <h1>Welcome to My Portfolio</h1>
     </header>
+
     <main>
-        </main>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab(event, 'About')">About</button>
+            <button class="tab-btn" onclick="openTab(event, 'Project')">Project</button>
+            <button class="tab-btn" onclick="openTab(event, 'Awards')">Awards</button>
+            <button class="tab-btn" onclick="openTab(event, 'Skills')">Skills</button>
+            <button class="tab-btn" onclick="openTab(event, 'Contact')">Contact</button>
+        </div>
+
+        <section id="About" class="tab-content active">
+            <h2>About Me</h2>
+            <p>This is where you describe your professional background.</p>
+        </section>
+
+        <section id="Project" class="tab-content">
+            <h2>My Projects</h2>
+            <p>Showcase your work here.</p>
+        </section>
+
+        <section id="Awards" class="tab-content">
+            <h2>Awards</h2>
+            <p>List your professional achievements.</p>
+        </section>
+
+        <section id="Skills" class="tab-content">
+            <h2>Skills</h2>
+            <p>HTML, CSS, JavaScript, Git, etc.</p>
+        </section>
+
+        <section id="Contact" class="tab-content">
+            <h2>Contact</h2>
+            <p>Reach out via LinkedIn or Email.</p>
+        </section>
+    </main>
+
     <script src="js/script.js"></script>
 </body>
 </html>

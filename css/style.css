@@ -1,0 +1,8 @@
+/* Hide all content sections by default */
+.tab-content { display: none; padding: 20px; }
+
+/* Show the active section */
+.tab-content.active { display: block; }
+
+/* Basic button styling */
+.tab-btn.active { background-color: #007bff; color: white; }
